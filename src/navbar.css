@@ -1,0 +1,36 @@
+/* Navbar link styles */
+.nav-link {
+    color: #000000 !important;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #FFA500 !important; /* Orange on hover */
+    text-decoration: none;
+  }
+  
+  /* Active link styles */
+  .active-link {
+    color: #FFA500 !important;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  /* Logout button styles */
+  .logout-btn {
+    background-color: #FF4C4C; /* Vibrant red */
+    border-color: #FF4C4C;
+    color: #FFFFFF;
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 5px 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout-btn:hover {
+    background-color: #E63946; /* Slightly darker red on hover */
+    border-color: #E63946;
+  }
+  
+  

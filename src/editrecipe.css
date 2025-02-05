@@ -1,0 +1,41 @@
+.editrecipe-background {
+    background-image: url('images/image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; /* Ensure no repeating */
+    min-height: 100vh;
+    height: 100%; /* Ensure it covers the full height of the page */
+    width: 100%; /* Cover full width */
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Form container styling */
+  .editrecipe-form-container {
+    background-color: rgba(255, 255, 255, 0.9); /* White with 90% opacity */
+    border-radius: 15px; /* Smooth rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
+    padding: 20px;
+    max-width: 700px;
+    margin: auto;
+  }
+  
+  .editrecipe-form-container h2 {
+    color: #333;
+    font-family: 'Poppins', sans-serif; /* Clean font for title */
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  
+  .editrecipe-form-container .form-group label {
+    color: #555; /* Subtle label color */
+    font-weight: 500;
+  }
+  
+  .editrecipe-form-container .btn {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  
+  

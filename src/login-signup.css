@@ -1,0 +1,117 @@
+/* Login Page Styles */
+
+/* Apply gradient background to the whole page */
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #FFA500, #1a1a1a);
+  color: white;
+}
+
+.login-card {
+  background-color: #f8f8f8; /* Lighter background for card */
+  color: black;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-title {
+  color: #FFA500; /* Accent color */
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.form-control {
+  background-color: #e6e6e6; /* Lighter input field */
+  color: black;
+  border: 1px solid #d1d1d1;
+}
+
+.form-control:focus {
+  background-color: #fff;
+  color: black;
+  border-color: #FFA500;
+  box-shadow: 0 0 5px rgba(255, 165, 0, 0.6);
+}
+
+.login-btn {
+  background-color: #FFA500; /* Accent color */
+  color: black;
+  font-weight: bold;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  margin-top: 1rem;
+  border-radius: 25px; /* Rounded button */
+}
+
+.login-btn:hover {
+  background-color: #FF8C00; /* Slightly darker on hover */
+  color: white;
+}
+
+.login-link {
+  color: #FFA500; /* Accent color */
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+}
+
+/* Signup Page Styles */
+
+/* Apply gradient background to the whole page */
+.signup-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #FFA500, #1a1a1a); /* Gradient from orange to dark gray */
+  color: white;
+}
+
+.signup-card {
+  background-color: #f8f8f8; /* Lighter background for card */
+  color: black;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-title {
+  color: #FFA500; /* Accent color */
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.signup-btn {
+  background-color: #FFA500; /* Accent color */
+  color: black;
+  font-weight: bold;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  margin-top: 1rem;
+  border-radius: 25px; /* Rounded button */
+}
+
+.signup-btn:hover {
+  background-color: #FF8C00; /* Slightly darker on hover */
+  color: white;
+}
+
+.signup-link {
+  color: #FFA500; /* Accent color */
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.signup-link:hover {
+  text-decoration: underline;
+}
+
